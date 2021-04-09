@@ -1,14 +1,9 @@
 {
     "swagger": "2.0",
-    "openapi": "3.0",
     "info": {
       "version": "1.0.0",
-      "title": "My User Project CRUD",
-      "description": "My User Project Application API",
-      "license": {
-        "name": "MIT",
-        "url": "https://opensource.org/licenses/MIT"
-      }
+      "title": "This is title",
+      "description": "This is description"
     },
     "host": "localhost:8000",
     "basePath": "/",
@@ -33,7 +28,7 @@
           "tags": [
             "Users"
           ],
-          "description": "Create new user in system",
+          "summary": "Create new user in system",
           "parameters": [
             {
               "name": "user",
